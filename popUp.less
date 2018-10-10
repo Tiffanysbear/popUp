@@ -1,0 +1,52 @@
+.pop-up-window {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #C4C4C4;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    z-index: 999;
+}
+.pop-container {
+    width: 320px;
+    height: 153px;
+    background: #fff;
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -77px;
+    font-size: 18px;
+    .close-dialog-btn {
+        width: 14px;
+        height: 14px;
+        background: url(https://edu-wenku.bdimg.com/v1/pc/PGC/close-btn-1524753519349.png) no-repeat;
+        position: absolute;
+        right: 14px;
+        top: 14px;
+        &:hover {
+            background: url(https://edu-wenku.bdimg.com/v1/pc/2018%E9%AB%98%E8%80%83PC/close_hover-1526293727273.png) no-repeat;
+        }
+    }
+    .tip-message {
+        color: #333;
+        padding-top: 32px;
+        text-align: center;
+    }
+    .confirm {
+        width: 98px;
+        height: 42px;
+        line-height: 42px;
+        background: #29a2ff;
+        text-align: center;
+        color: #fff;
+        margin: 0 auto;
+        margin-top: 20px;
+        &:hover {
+            background: #55B3FB;
+        }
+    }
+}
